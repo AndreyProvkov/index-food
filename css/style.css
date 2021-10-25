@@ -361,3 +361,30 @@ body {
   margin-top: 60px;
   width: 315px;
 }
+.footer {
+  padding: 40px 0;
+  background: #f6f6f6;
+}
+.footer-wrapper {
+  display: flex;
+  align-items: center;
+}
+.footer-logo {
+  margin-right: 50px;
+}
+.footer-link {
+  font-size: 16px;
+  line-height: 23px;
+  text-decoration-line: underline;
+  color: #000000;
+  margin-right: 50px;
+}
+.social-links {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+}
+.social-link {
+  margin-left: 20px;
+  text-decoration: none;
+}
