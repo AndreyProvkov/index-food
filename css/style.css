@@ -345,6 +345,7 @@ body {
   color: #aaaab1;
 }
 .button-outline {
+  cursor: pointer;
   background-color: transparent;
   border: 2px solid #f37321;
   padding: 15px 25px;
@@ -353,4 +354,10 @@ body {
   font-size: 16px;
   line-height: 19px;
   color: #f37321;
+}
+.button-center {
+  display: block;
+  margin: auto;
+  margin-top: 60px;
+  width: 315px;
 }
