@@ -314,11 +314,17 @@ body {
 .tabs-link.active {
   color: #f37321;
 }
+.tabs-content {
+  display: flex;
+  margin: -15px;
+}
 .tabs-card {
+  margin: 15px;
   max-width: 270px;
   border-radius: 20px;
   overflow: hidden;
   background-color: #fff;
+  box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.1);
 }
 .tabs-image {
   max-width: 100%;
