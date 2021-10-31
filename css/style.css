@@ -230,7 +230,8 @@ body {
   margin-bottom: 47px;
 }
 .delivery-week {
-  padding: 100px 0;
+  padding: 60px 0;
+  padding-bottom: 100px;
 }
 .delivery-cards {
   display: flex;
@@ -264,18 +265,31 @@ body {
 .tag-health {
   background: #d0fd89;
 }
-/* .tag-veg {
+.tag-veg {
+  background: #aebc41;
+  color: #ffffff;
 }
-.tag-meat {} 
+.tag-meat {
+  background: #b86b78;
+  color: #ffffff;
+}
 .tag-poultry {
+  background: #d68334;
+  color: #ffffff;
 }
 .tag-fish {
+  background: #cd6255;
+  color: #ffffff;
 }
 .tag-kids {
+  background: #fffdbf;
 }
-.tag-parents {}
+.tag-parents {
+  background: #f6fdc8;
+}
 .tag-weekend {
-} */
+  background: #fef7fe;
+}
 .section-grey {
   background: #f6f6f6;
 }
