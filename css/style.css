@@ -87,13 +87,31 @@ body {
   display: flex;
   align-items: center;
   padding: 100px;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .slide-text-light {
   background-color: gray;
   color: white;
 }
 .slide-content {
-  max-width: 400px;
+  max-width: 500px;
+  position: relative;
+}
+.slider-buttons {
+  position: absolute;
+  right: 46px;
+  bottom: 40px;
+  z-index: 9;
+  display: flex;
+  align-items: center;
+  width: 100px;
+  justify-content: space-between;
+}
+.slider-button {
+  cursor: pointer;
+}
+.swiper {
   position: relative;
 }
 .slide-title {
@@ -135,8 +153,12 @@ body {
     ),
     url("../img/summer.png"); */
   background-image: url("../img/summer.png");
-  background-repeat: no-repeat;
-  background-size: cover;
+}
+.slide-fall {
+  background-image: url("../img/fall.png");
+}
+.slide-vitamins {
+  background-image: url("../img/vitamins-week.png");
 }
 .slide:before {
   content: "";
